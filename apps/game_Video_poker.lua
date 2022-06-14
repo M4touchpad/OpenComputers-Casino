@@ -128,7 +128,7 @@ local function drawRewards(k, comb)
     gpu.setForeground(0x0000ff)
     gpu.setBackground(0x3d3d3d)
     if (k == 5) then
-        gpu.set(24, 6, getDivideBy4(4000))
+        gpu.set(24, 6, getDivideBy4(1000))
     else
         gpu.set(24, 6, getDivideBy4(250 * k))
     end
