@@ -100,7 +100,7 @@ end
 
 local function moneyOfCombination(combination)
     if (value == 5 and combination == 1) then
-        return 4000
+        return 1000
     elseif (combination == 1) then
         return 250 * value
     elseif (combination == 2) then
