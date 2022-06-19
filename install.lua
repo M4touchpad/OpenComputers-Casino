@@ -1,4 +1,4 @@
-settings.REP = "https://raw.githubusercontent.com/M4touchpad/OpenComputers-Casino/mem"
+local REP = "https://raw.githubusercontent.com/M4touchpad/OpenComputers-Casino/mem"
 
 local shell = require("shell")
 shell.execute("wget -fq " .. REP .. "/launcher.lua /home/1.lua")
