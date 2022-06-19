@@ -1,7 +1,5 @@
 local games = {}
 
-author = "/Warp M4"
-
 table.insert(games, {
     title = "Рулетка",
     file = "game_Roulette.lua",
