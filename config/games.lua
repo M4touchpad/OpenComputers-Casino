@@ -1,11 +1,12 @@
 local games = {}
 
+author = "/Warp M4"
+
 table.insert(games, {
     title = "Рулетка",
     file = "game_Roulette.lua",
     available = true,
     image = "game_Roulette.pic",
-    author = "warp M4",
     description = "Руле́тка — азартная игра (слово рулетка (roulette)\n" ..
             "происходит от французского слова «ру» в переводе с\n" ..
             "французского означает «колесо, ролик, бегунок»). Рулетка\n" ..
@@ -26,7 +27,6 @@ table.insert(games, {
     file = "game_Blackjack.lua",
     available = true,
     image = "game_Blackjack.pic",
-    author = "warp M4",
     description = "Блэкджек (англ. Blackjack «чёрный валет») — одна из самых\n" ..
             "популярных карточных игр в казино по всему миру. Большая\n" ..
             "популярность игры обуславливается простыми правилами,\n" ..
@@ -51,7 +51,6 @@ table.insert(games, {
     file = "game_Video_poker.lua",
     available = true,
     image = "game_Video_poker.pic",
-    author = "warp M4",
     description = "Видеопокер — игра казино, основанная на правилах\n" ..
             "пятикарточного покера с обменом. Игра ведется на\n" ..
             "компьютеризированной консоли с экраном или через интернет\n \n" ..
@@ -65,7 +64,6 @@ table.insert(games, {
     file = "game_More_less.lua",
     available = true,
     image = "game_More_less.pic",
-    author = "warp M4",
     description = "Карточная игра казино, суть которой в том, чтобы угадать,\n" ..
             "следующая выпавшая карта больше или меньше текущей.\n" ..
             "Если новая карта равна текущей, тогда данная ситуация\n" ..
@@ -83,7 +81,6 @@ table.insert(games, {
     file = "game_Minesweeper.lua",
     available = true,
     image = "game_Minesweeper.pic",
-    author = "warp M4",
     description = "Начинайте игру и ищите поля без мин. Если 3 раза подряд\n" ..
             "не наткнулись на поле с миной, то вы победили. Всего в\n" ..
             "игре 24 поля, из которых 5 заминированы.\n" ..
@@ -98,7 +95,6 @@ table.insert(games, {
     file = "game_One_armed_creeper.lua",
     available = true,
     image = "game_One_armed_creeper.pic",
-    author = "warp M4",
     description = "Классическая слот-машина с одной линией. Коэффициенты \n" ..
             "наград рассчитаны таким образом, чтобы, в среднем, 96%\n"..
             "средств возвращались игрокам. Для сравения, в казино\n"..
@@ -116,7 +112,6 @@ table.insert(games, {
     file = "game_Chests.lua",
     available = true,
     image = "game_Chests.pic",
-    author = "warp M4",
     description = "Начните игру и выберите сундук с добычей.\n" ..
             "Каждый сундук содержит случайное количество валюты:\n" ..
             "От 0 до двойного размера ставки.\n" ..
