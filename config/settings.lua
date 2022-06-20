@@ -3,7 +3,6 @@ local settings = {}
 settings.REPOSITORY = "https://raw.githubusercontent.com/M4touchpad/OpenComputers-Casino/master"
 settings.TITLE = "Приветствуем вас в казино"
 settings.ADMINS = { "memdess", "M4_touchpad" }
-settings.author = "/Warp M4"
 
 -- CHEST / PIM / ...
 settings.PAYMENT_METHOD = "PIM"
