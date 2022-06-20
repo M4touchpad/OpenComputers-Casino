@@ -1,7 +1,7 @@
 local settings = {}
 
 settings.REPOSITORY = "https://raw.githubusercontent.com/M4touchpad/OpenComputers-Casino/master"
-settings.TITLE = "Приветствуем у нас в казино"
+settings.TITLE = "Приветствуем вас в казино"
 settings.ADMINS = { "memdess", "M4_touchpad" }
 
 -- CHEST / PIM / ...
