@@ -18,6 +18,6 @@ addCurrency("Медный слиток",    "IC2:itemIngot",            0,   'IN
 --addCurrency("Медный блок",      "Forestry:resourceStorage", 1,   'BLOCK', 0xA5642F, 6)
 addCurrency("Оловянный слиток", "IC2:itemIngot",            1,   'INGOT', 0xCCCCCC, nil)
 --addCurrency("Оловянный блок",   "Forestry:resourceStorage", 2,   'BLOCK', 0xCCCCCC, 6)
-addCurrency("Бесплатно",        nil,                        nil, nil,     0xE5E5E5, nil)
+--addCurrency("Бесплатно",        nil,                        nil, nil,     0xE5E5E5, nil)
 
 return currencies
