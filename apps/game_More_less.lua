@@ -168,9 +168,9 @@ end
 local function setDefaultColor(left, top, bet)
     gpu.setForeground(0xffffff)
     gpu.setBackground(0x888888)
-    gpu.set(20, 5, '1')
-    gpu.set(20, 7, '5')
-    gpu.set(22, 5, '10')
+    gpu.set(20, 5, '5')
+    gpu.set(20, 7, '10')
+    gpu.set(22, 5, '15')
     gpu.set(22, 7, '25')
     gpu.set(25, 5, '50')
     gpu.set(25, 7, '75')
@@ -326,11 +326,11 @@ while true do
         end
     elseif e and not login then
         if x == 20 and y == 5 then
-            value = setDefaultColor(20, 5, 1)
+            value = setDefaultColor(20, 5, 5)
         elseif x == 20 and y == 7 then
-            value = setDefaultColor(20, 7, 5)
+            value = setDefaultColor(20, 7, 10)
         elseif (x == 22 or x == 23) and y == 5 then
-            value = setDefaultColor(22, 5, 10)
+            value = setDefaultColor(22, 5, 15)
         elseif (x == 22 or x == 23) and y == 7 then
             value = setDefaultColor(22, 7, 25)
         elseif (x == 25 or x == 26) and y == 5 then
