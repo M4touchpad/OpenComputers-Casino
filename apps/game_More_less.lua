@@ -210,7 +210,7 @@ local function drawDisplay()
 
     gpu.setBackground(0x00aa00)
     gpu.fill(32, 5, 6, 3, ' ')
-    gpu.set(20, 5, '5')
+    gpu.set(20, 5, '1')
     value = 1
     gpu.set(32, 6, 'Начать')
     gpu.setForeground(0x000000)
