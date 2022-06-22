@@ -175,7 +175,7 @@ local function setDefaultColor(left, top, bet)
     gpu.set(25, 5, '50')
     gpu.set(25, 7, '75')
     gpu.set(28, 5, '100')
-    gpu.set(28, 7, '250')
+    gpu.set(28, 7, '150')
     gpu.setBackground(0x00aa00)
     gpu.set(left, top, tostring(bet))
     return bet
@@ -340,7 +340,7 @@ while true do
         elseif (x == 28 or x == 29 or x == 30) and y == 5 then
             value = setDefaultColor(28, 5, 100)
         elseif (x == 28 or x == 29 or x == 30) and y == 7 then
-            value = setDefaultColor(28, 7, 250)
+            value = setDefaultColor(28, 7, 150)
         elseif x >= 41 and x <= 69 and y >= 17 and y <= 19 then
             error("Exit by request")
         elseif (x >= 32 and x <= 37 and y >= 5 and y <= 7) then
